@@ -15,3 +15,11 @@ def button_e(label: str,
     a = discord.ui.button(label=label, style=style, emoji=emoji)
     print(a)
     return a
+
+def send_msg(content):
+    a = await interaction.send_message(content)
+    return a
+
+def para_btn()
+    a = self, interaction: discord.Interaction, button: discord.Button
+    return a         
